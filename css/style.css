@@ -170,19 +170,24 @@ h1 {
 }
 
 .lefr-list {
-  margin-right: 75px;
+  margin-right: 70px;
+  width: 285px;
 }
 
 .right-list {
   margin-left: 100px;
+  width: 285px;
 }
 
 .number {
+  position: absolute;
   font-size: 31px;
   font-weight: 400;
   color: #030303;
   opacity: 0.48;
   padding-right: 20px;
+  left: -55px;
+  top: -3px;
 }
 
 .telephon {
@@ -191,7 +196,8 @@ h1 {
 
 .advantages-box-item {
   text-align: left;
-  width: 380px;
+  /* width: 380px; */
+  position: relative;
 }
 
 .footer {
